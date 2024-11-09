@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tecnología Futurista</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      margin: 0;
+      background-color: #222;
+      color: #e0e0e0;
+      font-family: Arial, sans-serif;
+    }
+    .contenido {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 1.6;
+    }
+    .contenido h2, .contenido h3 {
+      color: #17a2b8;
+    }
+    .contenido a {
+      color: aqua;
+      text-decoration: none;
+    }
+    .contenido a:hover {
+      text-decoration: underline;
+    }
+    .contenido .table {
+      background-color: #333;
+      color: #e0e0e0;
+      font-size: 1rem;
+    }
+    .contenido th {
+      background-color: #17a2b8;
+      color: #222;
+      font-weight: bold;
+      border: 1px solid #444;
+    }
+    .contenido td {
+      background-color: #444;
+      border: 1px solid #555;
+      color: #ddd;
+    }
+    .contenido tr:nth-child(even) td {
+      background-color: #555;
+    }
+    .contenido tr:hover td {
+      background-color: #666;
+    }
+
+    .header {
+      background: linear-gradient(90deg, #17a2b8, #17a2b8);
+      padding: 10px 0;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start; /* Para alinear todo a la izquierda */
+      text-align: center;
+    }
+    .header h1 {
+      font-size: 1.8rem;
+      color: #222;
+      font-weight: bold;
+      margin: 0 0 0 15px; /* Para dar un margen al título */
+    }
+    .logo {
+      color: #f1f1f1;
+      font-size: 1.2rem;
+      font-weight: bold;
+      display: flex;
+      align-items: center; /* Para alinear imagen y texto */
+      justify-content: center;
+    }
+    .logo-icon {
+      width: 60px; /* Ajusta el tamaño del logo */
+      height: 60px; /* Asegura que el logo sea cuadrado */
+      margin-right: 10px; /* Espacio entre el logo y el título */
+      border-radius: 50%; /* Hacer la imagen redonda */
+      object-fit: cover; /* Asegura que la imagen se ajuste bien */
+      box-shadow: 0px 0px 15px rgba(0, 198, 255, 0.5); /* Efecto luminoso */
+    }
+    .logo span {
+      font-size: 1.5rem;
+      color: #222;
+      font-weight: 600;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      text-shadow: 0px 0px 10px rgba(0, 198, 255, 0.7); /* Efecto luminoso */
+    }
+
+    /* Dropdown Menu Styling */
+    .menu-container .btn-secondary {
+      background-color: #222;
+      border: none;
+      color: #17a2b8;
+    }
+    .dropdown-menu {
+      background-color: #333;
+    }
+    .dropdown-menu a {
+      color: aqua;
+    }
+
+    /* Footer Styling */
+    .footer {
+      background-color: #222;
+      color: #ddd;
+      padding: 20px 0;
+    }
+    .footer a {
+      color: aqua;
+    }
+  </style>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="header row m-0 p-3">
+      <div class="col-md-2 col-12 text-center logo">
+        <!-- Logo Futurista -->
+        <div class="logo">
+          <!-- Nueva imagen de logo con cerebro y circuitos -->
+          <img src="images.jfif" alt="Logo Futurista" class="logo-icon">
+          <!-- Nombre del logo -->
+          <span>TECHFUTUR</span>
+        </div>
+      </div>
+      <div class="col-md-8 col-12 text-center">
+        <h1>TECNOLOGÍAS EMERGENTES</h1>
+      </div>
+      <div class="col-md-2 col-12 text-center mt-3 mt-md-0 menu-container">
+        <div class="dropdown">
+          <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Menú
+          </a>
+          <ul class="dropdown-menu text-center">
+            <li><a class="dropdown-item" href="indexxx.html">Contacto</a></li>
+            <li><a class="dropdown-item" href="indexx.html">Algunas Tecnologías</a></li>
+            <li><a target="_blank" class="dropdown-item" href="https://economipedia.com/definiciones/nuevas-tecnologias.html#:~:text=3%20abril%202024-,¿Qué%20son%20las%20nuevas%20tecnologías%3F,social%20en%20la%20economía%20global.&text=Las%20nuevas%20tecnologías%20están%20redefiniendo,comparables%20a%20la%20Revolución%20Industrial.">Nuevas Tecnologías</a></li>
+            <li><a target="_blank" class="dropdown-item" href="https://www.iberdrola.com/innovacion/realidad-virtual">Realidad Virtual</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Content Section Centered -->
+    <div class="contenido">
+      <h3>Introducción</h3>
+      <p>Las tecnologías emergentes son innovaciones que tienen el potencial de transformar industrias, economías y la vida diaria. Desde la inteligencia artificial hasta el Internet de las cosas, estas tecnologías están evolucionando rápidamente y redefiniendo cómo interactuamos con el mundo.</p>
+  
+      <h3>Principales Tecnologías Emergentes en 2024</h3>
+      <ul>
+        <li><strong>Inteligencia Artificial (IA) y Machine Learning</strong></li>
+        <li><strong>Blockchain y Criptomonedas</strong></li>
+        <li><strong>Realidad Virtual (VR) y Realidad Aumentada (AR)</strong></li>
+        <li><strong>Internet de las Cosas (IoT)</strong></li>
+        <li><strong>Computación Cuántica</strong></li>
+      </ul>
+  
+      <h3>Ventajas y Desventajas de las Tecnologías Emergentes</h3>
+      <div class="table-responsive">
+        <table class="table">
+          <tr>
+              <th>Tecnología</th>
+              <th>Ventajas</th>
+              <th>Desventajas</th>
+          </tr>
+          <tr>
+              <td>IA y Machine Learning</td>
+              <td>Aumento de eficiencia, automatización de tareas</td>
+              <td>Posible desempleo en trabajos rutinarios</td>
+          </tr>
+          <tr>
+              <td>Blockchain</td>
+              <td>Seguridad y transparencia en transacciones</td>
+              <td>Alto consumo energético</td>
+          </tr>
+          <tr>
+              <td>VR y AR</td>
+              <td>Experiencias inmersivas, aplicaciones educativas</td>
+              <td>Costos elevados de implementación</td>
+          </tr>
+          <tr>
+              <td>IoT</td>
+              <td>Conectividad en tiempo real, optimización de recursos</td>
+              <td>Riesgos de seguridad y privacidad</td>
+          </tr>
+          <tr>
+              <td>Computación Cuántica</td>
+              <td>Capacidad para resolver problemas complejos</td>
+              <td>Tecnología en fase inicial y alto costo</td>
+          </tr>
+        </table>
+      </div>
+
+      <h3>Recursos de Información</h3>
+      <ul>
+          <li><a target="_blank" href="https://www.youtube.com/watch?v=474QxsCFDc8">Reporte de IA y Futuro del Trabajo</a></li>
+          <li><a target="_blank" href="https://www.youtube.com/watch?v=Yn8WGaO__ak">¿Que es Blockchain?</a></li>
+          <li><a target="_blank" href="https://www.youtube.com/watch?v=PLpDCK3Zy7Q">Realidad Aumentada y Realidad Virtual</a></li>
+      </ul>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer text-center">
+      <ul class="list-unstyled">
+        <li class="d-inline"><a href="https://www.facebook.com/david.mercado.7777?mibextid=ZbWKwL" target="_blank" class="mx-2">Facebook</a></li>
+        <li class="d-inline"><a href="https://x.com/DavidMercado124?t=paTVgvXM0D1TNWq-YqMOGg&s=09" target="_blank" class="mx-2">Twitter</a></li>
+        <li class="d-inline"><a href="https://www.instagram.com/david_mercado07?igsh=ZTdleHV4d2tzNmtz" target="_blank" class="mx-2">Instagram</a></li>
+        <li class="d-inline"><a href="https://www.tiktok.com/@davidmercado88?_t=8r7f7MNqRU5&_r=1" target="_blank" class="mx-2">TikTok</a></li>
+      </ul>
+      <p>&copy; 2024 Juan David Mercado Machado. Todos los derechos reservados.</p>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
